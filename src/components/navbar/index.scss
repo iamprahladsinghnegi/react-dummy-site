@@ -1,0 +1,22 @@
+.navbar {
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  background: #fff;
+  line-height: 90px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+  //   color: black;
+  font-size: 16px;
+  img {
+    height: 60px;
+  }
+  &__row {
+    text-align: left;
+  }
+
+  a {
+    color: black;
+  }
+}

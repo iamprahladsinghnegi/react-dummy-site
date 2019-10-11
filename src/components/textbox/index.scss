@@ -1,0 +1,16 @@
+.textbox {
+  //   text-align: center;
+  &__content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    // width: 100%;
+    left: 30%;
+    top: 40%;
+    width: 30%;
+    h1 {
+      // color: white;
+      font-size: 40px;
+      font-weight: bold;
+    }
+  }
+}

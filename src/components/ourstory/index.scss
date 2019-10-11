@@ -1,0 +1,23 @@
+.ourstory {
+  padding: 0 10%;
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+  temp {
+    color: #efba6c;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  &__content {
+    // position: relative;
+    // transform: translate(-50%, -50%);
+    // // width: 100%;
+    // left: 50%;
+    // top: 50%;
+    position: absolute;
+
+    transform: translate(0%, 90%);
+  }
+}
